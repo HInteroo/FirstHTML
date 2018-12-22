@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 5;
+}
+html { 
+	background-color: black; 
+	color: white;
+
+}
+p{
+    border-style: solid;
+    border-width: 2px 10px 4px 20px;
+    color: white;
+    border-color: black;
+    border-radius: 12px;
+}
+h1,h3{
+	text-align: center;
+	padding: 20;
+	margin-top: 13px;
+}
+li{
+	margin-top: 2%;
+}
+a:hover{
+	/*background-color: #FFFFFF;*/
+	color: white;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: .2em;
+	border-radius: 5px;
+	text-decoration: none;
+}
+#nav1{
+	background-color: #260000;
+	padding-bottom: 60px
+}
+#Why{
+	background-color:#003400;
+}
+#DCSuperHeroes{
+	background-color: #001a33;
+}
+#MarvelSHs{
+	background-color: #3f0000;
+}
+.SpidermanQ{
+
+	text-indent: 60%;
+	border-style: none;
+	color:#ffa500;
+
+
+}
+.Title,.Quote{
+	text-align: center;
+	font-weight: bold;
+	background-color:none;
+	border-style: none;
+	color:#ffa500;
+
+}
+.Reasontotable{
+	margin-top:  40px;
+}
+
+#GreatHeroes{
+	background-image: url(/Users/admin/Desktop/HTML/Images/Spidermannn.jpg);
+	/*background: no-repeat;*/
+	background-size: cover;
+	height: 20vh;
+	padding: 50vh 0% 5% 1%;;
+}
+#Damian,#Batman,#WonderWoman,#Superman{
+	float: left;
+	width:auto;
+	height: 30px;
+	padding: 0px;
+	margin: 10px 10px 1px 10px;
+
+}
+#Spiderman,#IronMan,#CaptainMarvel,#CharlesXavier,#Storm{
+	float: left;
+	width:auto;
+	height: 40px;
+	padding: 0px;
+	margin: 10px 10px 1px 10px;
+
+}
+@media screen and (min-width: 600px){
+	main{
+	    margin: auto;
+	    width: 70%;
+	    border: 3px;
+	    padding: 10px;
+	}
+}

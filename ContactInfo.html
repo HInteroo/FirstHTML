@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Info</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  type="text/css" href="ContactMeCSS.css">
+	<link rel="stylesheet" href="NavL.css" type="text/css" media="screen and (min-width:800px)"> 
+	<link rel="stylesheet" href="NavS.css" type="text/css" media="screen and (max-width:799px)"> 
+	<script async type="text/javascript" src="navbar.js"></script>
+	<script async type="text/javascript" src="FormJavaS.js"></script>
+</head>
+
+<section id = "Home">	
+<nav id =nav1></nav>
+<nav id="nav">
+	<img id="logo" src="/Users/admin/Desktop/HTML/Images/MVvsDC.jpg"/>
+	<img id="Icon" src="/Users/admin/Desktop/HTML/Images/COMICS.jpg"/>
+	<div id="navicon" onclick="toggleNav();">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+	<a href="#Home"></a>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<!-- <li><a href="#Why">Why?</a></li> -->
+		<!-- <li><a href="#DCSuperHeroes">DCU Heroes</a></li> -->
+		<!-- <li><a href="#MarvelSHs">MarvelU Heroes</a></li> -->
+		<li><a href="Page2.html">Villains</a></li>
+		<!-- <li><a href="ContactInfo.html">Contact</a></li> -->
+		<li><a href="ComicT.html">Using Table</a></li>
+	</ul>
+</nav>
+</section>
+	<header id="GreatHeroes">	
+		<h1 class="Title">What are Superheroes?</h1>
+		<p class="Quote">With Great Power Comes Great Responsibility</p>
+		<p class="SpidermanQ">-Spiderman</p>
+	</header>
+
+<section id = "ContactInfo">
+<!-- 	<img id="DDeadpool" src="/Users/admin/Desktop/HTML/Images/DDeadpool.png"/>
+	<img id="Spidy" src="/Users/admin/Desktop/HTML/Images/Spidy.png"/> -->
+
+	<h2>Where to Contact Me?</h2>
+	<h2>Contact Form</h2>
+	<div class="container">
+		<form name="FirstForm" onsubmit="return Validation()" method="post">
+			<label for="fname">First Name :</label>
+			<input id="FirstName" type="text" name ="First Name" placeholder="FirstName">
+			
+			<label for="fname">Last Name :</label>
+			<input id="LastName" type="text" name ="Last Name" placeholder="LastName">
+			
+			<label for="fname">Email :</label>
+			<input id="Email" type="text" name ="Email" placeholder="email@example.com">
+						
+			<label for="fname">Password :</label>
+			<input id="PassWord" type="text" name ="Password" placeholder="Password">
+			
+			<label for="subject">Your thoughts: </label>
+    		<textarea id="subject" type="subject" name="Text" placeholder="Text..."></textarea>
+
+    		<button type="button" onclick="Validation()">Submit</button>
+	</form>		
+	</div>
+
+</section>
+
+</body>
+</html>
