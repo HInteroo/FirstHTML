@@ -65,7 +65,7 @@ a:hover{
 }
 
 #GreatHeroes{
-	background-image: url(/Users/admin/Desktop/HTML/Images/Spidermannn.jpg);
+	background-image: url(HTML/Images/Spidermannn.jpg);
 	/*background: no-repeat;*/
 	background-size: cover;
 	height: 20vh;
